@@ -1,0 +1,8 @@
+export const INIT_APP = 'auth/INIT_APP';
+export const VALIDATE_SESSION_SUCCESS = 'auth/VALIDATE_SESSION_SUCCESS';
+export const SELECT_USER_ROLE = 'auth/SELECT_USER_ROLE';
+export const CHANGE_PLACE = 'auth/CHANGE_PLACE';
+
+export const LOGOUT = 'LOGOUT';
+
+export const PRIVATE_HEADER_VISIBILITY = 'auth/PRIVATE_HEADER_VISIBILITY';

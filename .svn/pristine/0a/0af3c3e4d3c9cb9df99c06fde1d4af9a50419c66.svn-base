@@ -1,0 +1,91 @@
+@import '../../theme.scss';
+
+.ant-layout-footer {
+    padding: 0;
+}
+
+.footer-section {
+  width: 100%;
+  background-color: $second-text-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  & * {
+    color: $white;
+    font-size: 12px;
+  }
+  & .logo-ine {
+    height: 30px;
+  }
+  & .left-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    gap: 2vw;
+    & .cau-link {
+      text-decoration: underline;
+    }
+  }
+  & .utsi-label {
+    text-align: center;
+    width: 60%;
+  }
+  & .version-div {
+    width: 50%;
+    position: relative;
+    & .revision-label {
+      position: absolute;
+      top:-15px;
+      right: 0;
+      color: $second-text-color;
+    }
+    & .version-label {
+      display: block;
+      text-align: end;
+    }
+  }
+}
+
+
+@media screen and (max-width: $small-screen-width) {
+  .footer-section {
+    & .utsi-label {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max-width) {
+  .footer-section {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    gap: 1vw;
+    & * {
+      font-size: 1.6vw;
+    }
+    & .logo-ine {
+      height: 3.5vw;
+    }
+  }
+}
+
+@media screen and (max-width: $phone-max-width) {
+  .footer-section {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    & * {
+      font-size: 12px;
+    }
+    & .logo-ine {
+      height: 30px;
+    }
+    & .left-content {
+      width: 100%;
+    }
+    & .version-div {
+      display: none;
+    }
+  }
+}

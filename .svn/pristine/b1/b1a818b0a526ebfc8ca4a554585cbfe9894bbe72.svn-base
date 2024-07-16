@@ -1,0 +1,82 @@
+[
+    {
+        "page_id": "1",
+        "title": "Expediente",
+        "page_order": 1,
+        "url": "/expediente",
+        "submenu": [
+            {
+                "page_id": "11",
+                "title": "Crear Expediente",
+                "page_order": 1,
+                "url": "/crearExpediente"
+            },
+            {
+                "page_id": "12",
+                "title": "Editar Expediente",
+                "page_order": 2,
+                "url": "/editarExpediente"
+            }
+        ]
+    },
+    {
+        "page_id": "2",
+        "title": "Tramites",
+        "page_order": 1,
+        "url": "/tramites",
+        "submenu": [
+            {
+                "page_id": "21",
+                "title": "Consultar Tramite",
+                "page_order": 1,
+                "url": "/consultarTramite"
+            },
+            {
+                "page_id": "22",
+                "title": "Crear Tramite",
+                "page_order": 2,
+                "url": "/crearTramite"
+            }
+        ]
+    },
+    {
+        "page_id": "3",
+        "title": "Catalogos",
+        "page_order": 1,
+        "url": "/catalogos",
+        "submenu": [
+            {
+                "page_id": "31",
+                "title": "Crear Catalogo",
+                "page_order": 1,
+                "url": "/crearCatalogo"
+            },
+            {
+                "page_id": "32",
+                "title": "Editar Catalogo",
+                "page_order": 2,
+                "url": "/editarCatalogo"
+            }
+        ]
+    },
+    {
+        "page_id": "4",
+        "title": "Administracion",
+        "page_order": 1,
+        "url": "/administracion",
+        "submenu": [
+            {
+                "page_id": "41",
+                "title": "Crear Usuario",
+                "page_order": 1,
+                "url": "/crearCatalogo"
+            },
+            {
+                "page_id": "42",
+                "title": "Editar Usuario",
+                "page_order": 2,
+                "url": "/editarUsuario"
+            }
+        ]
+    }
+]

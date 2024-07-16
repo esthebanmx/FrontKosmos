@@ -1,0 +1,64 @@
+[
+    {
+        "page_id": "1",
+        "title": "Citas",
+        "page_order": 1,
+        "url": "/citas" ,
+        "submenu": [ 
+            {
+                "page_id": "11",
+                "title": "Agendar Cita",
+                "page_order": 1,
+                "url": "/agendarCita"
+            }          
+        ]       
+    },
+    {
+        "page_id": "2",
+        "title": "Médicos",
+        "page_order": 1,
+        "url": "/medicos",
+        "submenu": [ 
+            {
+                "page_id": "21",
+                "title": "Alta de Médico",
+                "page_order": 1,
+                "url": "/altaMedico"
+            }          
+        ]
+    },
+    {
+        "page_id": "3",
+        "title": "Consultorios",
+        "page_order": 1,
+        "url": "/consultorios",
+        "submenu": [
+            {
+                "page_id": "31",
+                "title": "Alta de Consultorio",
+                "page_order": 1,
+                "url": "/altaConsultorio"
+            }           
+        ]
+    },
+    {
+        "page_id": "4",
+        "title": "Administracion",
+        "page_order": 1,
+        "url": "/administracion",
+        "submenu": [
+            {
+                "page_id": "41",
+                "title": "Crear Usuario",
+                "page_order": 1,
+                "url": "/crearUsuario"
+            },
+            {
+                "page_id": "42",
+                "title": "Editar Usuario",
+                "page_order": 2,
+                "url": "/editarUsuario"
+            }
+        ]
+    }
+]

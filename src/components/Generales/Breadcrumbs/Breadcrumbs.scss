@@ -1,0 +1,40 @@
+.migas-container {
+    padding: 16px;
+    .actual {
+        color: #d5007f;
+        font-size: 14px;
+    }
+    .ant-btn {
+        color: #929292;
+        font-size: 14px;
+        padding: 0;
+        &:not(.ant-btn-disabled):hover {
+            color: #9159cb;
+        }
+    }
+    .separador {
+        margin-left: 6px;
+        color: #929292;
+    }
+    .txt-user {
+        font-weight: 700;
+        font-size: 16px;
+        margin-right: 16px;
+    }
+}
+
+.icon{
+    font-size: 24px;
+    padding-right: 16px;
+}
+.icon-user{
+    padding-top: 10px;
+    padding-right: 16px;
+    .icon-user-color{
+        background: #D5007F;
+    }
+}
+.name{
+    padding-right: 24px;
+    
+}

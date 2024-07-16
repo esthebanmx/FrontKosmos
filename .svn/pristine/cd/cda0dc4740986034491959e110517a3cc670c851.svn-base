@@ -1,0 +1,31 @@
+Prebas
+REACT_APP_RECAPTCHA_SITE_KEY=6LdvgNwmAAAAAD3c2YVbEWk70nE9Jn9ZSz8tO9X-
+#Capa
+#REACT_APP_RECAPTCHA_SITE_KEY=6LcSgtwmAAAAACoWqk0KTC1LuB3F5rNGby4aMBZp
+#Seguridad
+#REACT_APP_RECAPTCHA_SITE_KEY=6LdMg9wmAAAAAE3VCD0LqKUKWc2GaNC_stm8ooNl
+
+# REACT_APP_AUTH_URL_API=https://localhost:8443
+# REACT_APP_LOGOUT_URL_API=https://localhost:8443
+# REACT_APP_API_URL=https://localhost:8443
+
+#Pruebas
+REACT_APP_AUTH_URL_API=https://siqyd-centralpruebas.ine.mx
+REACT_APP_LOGOUT_URL_API=https://siqyd-centralpruebas.ine.mx
+REACT_APP_API_URL=https://siqyd-centralpruebas.ine.mx
+
+#Capa
+#REACT_APP_AUTH_URL_API=https://siqyd-centralcapacita.ine.mx
+#REACT_APP_LOGOUT_URL_API=https://siqyd-centralcapacita.ine.mx
+#REACT_APP_API_URL=https://siqyd-centralcapacita.ine.mx
+
+#Seg
+#REACT_APP_AUTH_URL_API=https://siqyd-centralseguridad.ine.mx
+#REACT_APP_LOGOUT_URL_API=https://siqyd-centralseguridad.ine.mx
+#REACT_APP_API_URL=https://siqyd-centralseguridad.ine.mx
+
+
+
+REACT_APP_SECRET_KEY = InC2H19@kVbAP25k
+REACT_APP_SECRET_SALT = AE0da04af8f6658593122bf834b30739
+REACT_APP_SECRET_IV = dc0da04af8fee58593442bf834b30739

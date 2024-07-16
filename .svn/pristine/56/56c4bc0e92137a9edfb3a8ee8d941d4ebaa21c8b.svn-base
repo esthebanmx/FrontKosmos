@@ -1,0 +1,128 @@
+
+// Colors
+$primary-color: #d5007f; // primary color for all components
+$secondary-color: #E76DB6; 
+$primary-inactive-color: #F3B6DA;
+$white: #ffffff;
+$dark: #333333;
+$filter-background-color: #F1FBFD;
+
+// Fontsize
+$title-font-size: 36px;
+$buttons-font-size: 18px;
+$paragraph-font-size: 16px;
+$breadcrumbs-font-size: 14px;
+$messages-font-size: 15px;
+$pagination-font-size: 13px;
+
+
+$success-color: #52c41a; // success state color
+$warning-color: #faad14; // warning state color
+$error-color: #f5222d; // error state color
+$font-size-base: 16px; // major text font size
+$heading-color: rgba(0, 0, 0, 0.85); // heading text color
+$text-color: rgba(0, 0, 0, 0.65); // major text color
+$text-color-secondary: #cda8f5; // secondary text color
+$disabled-color: rgba(0, 0, 0, 0.25); // disable state color
+$border-radius-base: 2px; // major border radius
+$border-color-base: #d9d9d9; // major border color
+$box-shadow-base: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+  0 9px 28px 8px rgba(0, 0, 0, 0.05); // major shadow for layers
+$light-grey: #f1f1f1af;
+$grey: #6e6e6e;
+$disabled-grey: #6d6d6d;
+$hover-color: #e149a4;
+$second-text-color: #333333;
+$btn-border-color: #db2491;
+$btn-border-focus-color: #d5007f;
+$btn-shadow-border-color: #b7006d;
+
+$background-success-color: #f8ffee;
+$background-info-color: #e9f6fe;
+$background-warning-color: #fefbe8;
+$background-error-color: #fdf2f0;
+
+$border-success-color: #c2e999;
+$border-info-color: #458ff7;
+$border-warning-color: #eeb041;
+$border-error-color: #ea5b56;
+
+$accent-color: #a867ee;
+$accent-color-2: #36abbe;
+
+$big-screen-width: 1445px;
+$small-screen-width: 1024px;
+$tablet-max-width: 768px;
+$phone-max-width: 480px;
+
+@font-face {
+  font-family: Roboto;
+  src: url('../src/assets/fonts/Roboto-Thin.ttf') format('truetype');
+  font-weight: 100 !important;
+}
+
+@font-face {
+  font-family: Roboto_Italic;
+  src: url('../src/assets/fonts/Roboto-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../src/assets/fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto_Italic;
+  src: url('../src/assets/fonts/Roboto-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../src/assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto_Italic;
+  src: url('../src/assets/fonts/Roboto-Italic.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../src/assets/fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto_Italic;
+  src: url('../src/assets/fonts/Roboto-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../src/assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Roboto_Italic;
+  src: url('../src/assets/fonts/Roboto-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../src/assets/fonts/Roboto-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Roboto_Italic;
+  src: url('../src/assets/fonts/Roboto-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+}

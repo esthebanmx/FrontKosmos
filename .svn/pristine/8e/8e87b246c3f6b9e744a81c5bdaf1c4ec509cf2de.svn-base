@@ -1,0 +1,31 @@
+import React from 'react';
+import './Footer.scss';
+import LogoIne from '../../assets/images/logoINE_bco.svg';
+
+function Footer() {
+  const currentYear = new Date().getFullYear();
+  return (
+    <section className="footer-section">
+      <a href="https://www.ine.mx/" target="_blank" rel="noreferrer">
+        <img className="logo-ine" src={LogoIne} alt="logo-ine" />
+      </a>
+      <div className="left-content">
+        <span className="year-label">{`©INE México  ${currentYear}`}</span>
+        <a className="cau-link" href="https://crmcau.ine.mx/" target="_blank" rel="noreferrer">
+          CAU
+        </a>
+      </div>
+      <span className="utsi-label">
+        Unidad Técnica de Servicios de Informática | Compatible con Google Chrome
+      </span>
+      <div className="version-div">
+        <span className="revision-label">6.0.0 Rev. 108 31/10/2023 11:00 </span>
+        <span className="version-label">
+          Sistema Integral de Quejas y Denuncias | Versión del Sistema 6.0/2023
+        </span>
+      </div>
+    </section>
+  );
+}
+
+export { Footer };
